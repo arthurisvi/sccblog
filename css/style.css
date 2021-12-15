@@ -28,13 +28,13 @@ a {
     text-decoration: none;
 }
 
-a:link,
-a:visited {
+#menu a:link,
+#menu a:visited {
     color: white;
     padding: 8px 12px;
 }
 
-a:hover {
+#menu a:hover {
     color: #d76d2c;
     background: #396248;
 }
@@ -45,11 +45,7 @@ a:hover {
 #principal {
     width: 920px;
     margin: 0 auto;
-}
-
-#postagens,
-#lateral {
-    background: #69b883
+    padding: 15px;
 }
 
 #postagens {
@@ -69,6 +65,7 @@ a:hover {
 
 #rodape {
     clear: both;
+    color: white;
     text-align: center;
     padding: 15px;
     background: #d76d2c;
@@ -82,8 +79,65 @@ h1 {
     font-size: 2.5em;
 }
 
+h2 {
+    color: #d76d2c;
+}
+
+h3 {
+    background: #d76d2c;
+    padding: 5px;
+    color: white;
+}
+
+.postagem span {
+    color: #396248;
+    font-size: 0.8em;
+    border-bottom: 1px solid #d76d2c;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.postagem a:link,
+.postagem a:visited {
+    color: #396248;
+}
+
+.postagem a:hover {
+    text-decoration: underline;
+}
+
 .scc {
     color: #396248;
+}
+
+.postagem p {
+    color: #df7b1d;
+}
+
+.conteudo-lateral {
+    background: #69b883;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.conteudo-lateral a:link,
+.conteudo-lateral a:visited {
+    color: white;
+}
+
+.conteudo-lateral a:hover {
+    text-decoration: underline;
+}
+
+.texto-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+#lista-categorias a {
+    font-size: 0.8em;
+    color: black;
 }
 
 
