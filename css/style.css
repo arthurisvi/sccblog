@@ -14,7 +14,7 @@ body {
 /*formatação do menu*/
 
 #cabecalho {
-    background-color: #d76d2c;
+    background-color: #1C1C1C;
     padding: 15px;
     text-align: center;
 }
@@ -37,6 +37,11 @@ a {
 #menu a:hover {
     color: #d76d2c;
     background: #396248;
+}
+
+#img-logo {
+    width: 50px;
+    margin-right: 5px;
 }
 
 
@@ -75,7 +80,7 @@ a {
 /*outras formatações*/
 
 h1 {
-    color: white;
+    color: #d76d2c;
     font-size: 2.5em;
 }
 
@@ -84,7 +89,7 @@ h2 {
 }
 
 h3 {
-    background: #d76d2c;
+    background: #396248;
     padding: 5px;
     color: white;
 }
@@ -108,15 +113,15 @@ h3 {
 }
 
 .scc {
-    color: #396248;
+    color: #d76d2c;
 }
 
 .postagem p {
-    color: #df7b1d;
+    color: #d76d2c;
 }
 
 .conteudo-lateral {
-    background: #69b883;
+    background: #d76d2c;
     padding: 10px;
     margin-bottom: 20px;
 }
@@ -137,7 +142,7 @@ h3 {
 
 #lista-categorias a {
     font-size: 0.8em;
-    color: black;
+    color: white;
 }
 
 
